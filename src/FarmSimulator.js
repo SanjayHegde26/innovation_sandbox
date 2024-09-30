@@ -12,6 +12,7 @@ function FarmSimulator() {
   const [progress, setProgress] = useState(0); // Progress state for loading bar
   const [weather, setweather] = useState(36);
   const navigate = useNavigate();
+  const backgroundImage = `${process.env.PUBLIC_URL}/images/background.png`;
 
   const crops = {
     wheat: `${process.env.PUBLIC_URL}/images/wheat.jpg`,
@@ -60,6 +61,7 @@ function FarmSimulator() {
       ) : (
         // Main content when not loading
         <>
+        <div style={{ backgroundImage: `url(${backgroundImage})` }}>
           <div className="main-content">
             <div className="crop-selector">
               <h2>Select your current crop</h2>
@@ -77,7 +79,7 @@ function FarmSimulator() {
               <img src={`/images/${selectedCrop}.jpg`} alt={selectedCrop} className="selected-crop-image" />
             </div>
           </div>
-
+          </div>
           <div className="soil-parameters">
             <h3>Input Soil Parameters</h3>
 

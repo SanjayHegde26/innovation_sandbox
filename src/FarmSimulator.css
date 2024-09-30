@@ -13,7 +13,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url('C:\Users\USER\Desktop\Innovation Sandbox\Farm Simlulator\my-react-app\public\images\background.png'); /* Use the correct path where the image is stored */
+  background-image: url('${process.env.PUBLIC_URL}/images/background.png'); /* Use the correct path where the image is stored */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
