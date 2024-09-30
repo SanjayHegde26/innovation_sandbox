@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/innovation_sandbox/static/css/main.26071c64.css",
-    "main.js": "/innovation_sandbox/static/js/main.1d88a83c.js",
+    "main.js": "/innovation_sandbox/static/js/main.c88ff993.js",
     "static/media/background.png": "/innovation_sandbox/static/media/background.af59606e7feeb0cab13d.png",
     "index.html": "/innovation_sandbox/index.html",
     "main.26071c64.css.map": "/innovation_sandbox/static/css/main.26071c64.css.map",
-    "main.1d88a83c.js.map": "/innovation_sandbox/static/js/main.1d88a83c.js.map"
+    "main.c88ff993.js.map": "/innovation_sandbox/static/js/main.c88ff993.js.map"
   },
   "entrypoints": [
     "static/css/main.26071c64.css",
-    "static/js/main.1d88a83c.js"
+    "static/js/main.c88ff993.js"
   ]
 }
