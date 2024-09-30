@@ -13,5 +13,5 @@ function App() {
     </Router>
   );
 }
-
+console.log('App is starting...');
 export default App;
