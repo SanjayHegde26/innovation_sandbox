@@ -12,7 +12,7 @@ function FarmSimulator() {
   const [progress, setProgress] = useState(0); // Progress state for loading bar
   const [weather, setweather] = useState(36);
   const navigate = useNavigate();
-  const backgroundImage = '/images/background.png';
+  const backgroundImage = "./assets/images/background.png";
 
   const crops = {
     wheat: `${process.env.PUBLIC_URL}/images/wheat.jpg`,
