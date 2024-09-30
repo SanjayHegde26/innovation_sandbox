@@ -1,0 +1,84 @@
+.results-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.results-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.results-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crop-name h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.yield-profit p {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  color: #007bff;
+  text-align: right;
+}
+
+.yield-profit p strong {
+  color: #333;
+}
+
+.detailed-recommendation {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #555;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.other-crops-table {
+  margin-top: 30px;
+}
+
+.other-crops-table h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.other-crops-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.other-crops-table th, .other-crops-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.other-crops-table th {
+  background-color: #f2f2f2;
+}
+
+.other-crops-table td {
+  text-align: center;
+}
+
+.crop-image-small {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
