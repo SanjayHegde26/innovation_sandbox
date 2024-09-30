@@ -32,10 +32,10 @@ function ResultsPage() {
 
   // Image paths for the crops
   const cropImages = {
-    wheat: '/images/wheat.jpg',
-    corn: '/images/corn.jpg',
-    rice: '/images/rice.jpg',
-    soybeans: '/images/soybeans.jpg',
+    wheat: `${process.env.PUBLIC_URL}/images/wheat.jpg`,
+    corn: `${process.env.PUBLIC_URL}/images/corn.jpg`,
+    rice: `${process.env.PUBLIC_URL}/images/rice.jpg`,
+    soybeans: `${process.env.PUBLIC_URL}/images/soybeans.jpg`,
   };
 
   // Get the recommendation for the selected crop
