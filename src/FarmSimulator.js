@@ -14,11 +14,11 @@ function FarmSimulator() {
   const navigate = useNavigate();
 
   const crops = {
-    wheat: '/images/wheat.jpg',
-    corn: '/images/corn.jpg',
-    rice: '/images/rice.jpg',
-    soybeans: '/images/soybeans.jpg',
-  };
+  wheat: `${process.env.PUBLIC_URL}/images/wheat.jpg`,
+  corn: `${process.env.PUBLIC_URL}/images/corn.jpg`,
+  rice: `${process.env.PUBLIC_URL}/images/rice.jpg`,
+  soybeans: `${process.env.PUBLIC_URL}/images/soybeans.jpg`,
+};
 
   // Function to handle the Simulate button click
   const handleSimulate = () => {
