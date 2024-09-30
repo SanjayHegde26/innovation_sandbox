@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FarmSimulator from './FarmSimulator';
 import ResultsPage from './ResultsPage'; // Import the new ResultsPage
 import './index.css';
+import ReactDOM from 'react-dom';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
